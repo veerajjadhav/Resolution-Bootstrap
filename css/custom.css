@@ -95,20 +95,107 @@ body{
     margin-top:30px;
 }
 .our-work{
-    margin-top:30px;
+    margin:30px 0 70px 0;
     position: relative;
 }
 .our-work:after{
     content: '';
-    width:10px;
+    width:100px;
     position:absolute;
     height:2px;
-    /*border:2px solid red;*/
     background: #ef6249;
-    left:45%;
-    margin-top:20px;
+    left:0;
+    right:0;
+    margin:0 auto;
     transition: all 0.5s;
+    margin-top:20px;
 }
-.our-work:hover:after {
-    width:300px;
+.our-products-desc{
+    padding:0 40px;
+}
+.our-products1 {
+    margin-top:100px;
+}
+.our-products2 {
+    margin-bottom:60px;
+    margin-top: 70px;
+}
+.our-products-heading{
+    margin-bottom:30px;
+}
+.Product-icon{
+    color:#ef6249;
+    font-size: 50px;
+    border:2px solid #ef6249;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+.our-all-product{
+    position: relative;
+}
+.our-all-product:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 2px;
+    background: #ef6249;
+    margin:0 auto;
+    left:0;
+    right:0;
+    transition: all .5s;
+    margin-top:20px;
+}
+.our-all-product:hover:after{
+    width:100px;
+}
+.clients-container{
+    background: rgba(0, 0, 0, 0.04);
+    padding-bottom: 30px;
+}
+.client-words:before,.client-words:after{
+    content:'"';
+}
+blockquote{
+    border:0;
+    padding:30px;
+    margin:0;
+}
+.client{
+    position: relative;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 6px 7px -6px rgba(0, 0, 0, 0.22);
+}
+.client:after{
+    top: 100%;
+    left:15%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-top-color: #fff;
+    border-width: 20px;
+    margin-left: -30px;
+}
+.client-avatar{
+    width:70px;
+    height:70px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 26px 0 0 12px;
+}
+.my-avatar{
+    max-width: 70px;
+}
+.blog-img{
+    max-width:100%;
+}
+.fa-comment{
+    display: inline-block;
+}
+.commeent-no{
+    display:inline-block;
 }
