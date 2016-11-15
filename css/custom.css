@@ -1,6 +1,9 @@
 body{
     font-family: 'Lora', serif;
 }
+li {
+    list-style: none;
+}
 .site-header{
     padding:0 40px;
     background:url('../images/banner.jpg') no-repeat;
@@ -196,6 +199,52 @@ blockquote{
 .fa-comment{
     display: inline-block;
 }
-.commeent-no{
+.comment-no{
     display:inline-block;
+    margin-right:8px;
+}
+.blog-details{
+    display: flex;
+    justify-content:space-between;
+    margin:20px 0;
+}
+.blog-desc{
+    padding:30px;
+}
+.other-services{
+    margin-top:80px;
+}
+.services{
+    margin-left:25px;
+}
+.footer-container{
+    background: #2F3032;
+    position: relative;
+}
+.footer-container h3{
+    color:#fff;
+}
+.footer-desc,.footer-desc li a{
+    color:#848484;
+}
+.footer-container:after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    background: #848484;
+    bottom:0;
+    left:0;
+}
+.copyright{
+    background: #2F3032;
+    color:#848484;
+}
+.copyright a {
+    color:#fff;
+}
+.copyright a:hover{
+    text-decoration: none;
+    color:#d43f3a;
+    transition: all 0.5s;
 }
